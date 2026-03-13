@@ -25,7 +25,7 @@
 Testing menggunakan 20 VUs selama 30 detik menunjukkan semua request dapat diproses di bawah 500ms dan tanpa error. Hal ini menunjukkan endpoint GET Users stabil dan dapat menangani beban paralel dengan baik.
 
 ### **GET Users Results:**
-![Hasil GET Users Results](./results/get_users_results.png)
+![Hasil GET Users Results](results/get_users_results.png)
 
 ---
 
@@ -42,7 +42,7 @@ Testing menggunakan 20 VUs selama 30 detik menunjukkan semua request dapat dipro
 Testing dengan 20 users selama 30 detik pada endpoint GET /Users dan POST /Authors menunjukkan semua request stabil di bawah 500ms tanpa error, dengan rata-rata respons 190-197ms dan p95 di bawah 300ms. Hal ini menunjukkan performa server baik untuk penanganan beban paralel.
 
 ### **POST Authors Results:**
-![Hasil POST Authors Results](./results/post_authors_results.png)
+![Hasil POST Authors Results](results/post_authors_results.png)
 
 ---
 
